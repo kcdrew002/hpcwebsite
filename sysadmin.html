@@ -1,0 +1,125 @@
+<!-- Put all documentation on one page and use id links and new nav bar to get to divs sections for mains and divs for subs -->
+<!DOCTYPE html>
+<!-- add content 
+add id links to teach section-->
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sysadmin | Morehouse HPC</title>
+    <!-- title icon -->
+    <link rel="icon" type="image/x-icon" href="/images/MorehouseHPCLogo.png" />
+    <link rel="stylesheet" href="sysadmin.css" />
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- HEADER SECTION -->
+    <section class="header">
+      <nav>
+        <a href="index.html"
+          ><img
+            src="images/MorehouseHPCLogo-resized.png"
+            alt="Morehouse-HPC-Logo"
+        /></a>
+        <!-- adds space between image and title -->
+        <span style="opacity: 0">:)</span>
+        <h1 style="color: #ffffff; font-size: 200%">MOREHOUSE HPC</h1>
+        <div class="nav-links">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="aboutus.html">ABOUT</a></li>
+            <li><a href="docs.html">DOCS</a></li>
+            <li><a href="sysadmin.html">SYSADMIN</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="text-box">
+        <h1>Sysadmin Guide</h1>
+        <p>Guidelines for HPC Research Group student administrators</p>
+        <p>
+          The HPC Server is running Ubuntu Server 20.04 LTS using Xen
+          Virtualization.
+        </p>
+        <nav>
+          <div class="more-nav-links">
+            <ul>
+              <li><a href="#resource-links">RESOURCES</a></li>
+              <li><a href="#domu-manage">DOMU MANAGEMENT</a></li>
+              <li><a href="#org-guide">ORGANIZATION GUIDE</a></li>
+              <li><a href="#web">WEBSITE</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <section class="content">
+      <!-- RESOURCES -->
+      <section id="resource-links" class="resources">
+        <h1>Resources</h1>
+      </section>
+      <!-- DOMU MANAGEMENT -->
+      <section id="domu-manage" class="domu">
+       
+        <h1>DomU Management</h1>
+         <nav>
+            <div class="even-more-nav-links">
+              <ul>
+                <li><a href="#resource-links">CREATING DOMUS</a></li>
+                <li><a href="#domu-manage">DELETING DOMUS</a></li>
+              </ul>
+            </div>
+          </nav>
+        <div class="creating-domus">
+          <h2>Creating DomUs</h2>
+        </div>
+        <div class="deleting-domus">
+          <h2>Deleting DomUs</h2>
+        </div>
+      </section>
+      <section id="org-guide" class="organization">
+        <h1>Organization Guide</h1>
+        <nav>
+            <div class="even-more-nav-links">
+              <ul>
+                <li><a href="#resource-links">MEETING STRUCTURE</a></li>
+                <li><a href="#domu-manage">TASK MANAGEMENT</a></li>
+              </ul>
+            </div>
+          </nav>
+        <div class="meeting-struct"></div>
+        <h2>Meeting Structure</h2>
+        <div class="task-management"></div>
+        <h2>Task Management</h2>
+      </section>
+      <section id="web" class="website">
+        <h1>Website</h1>
+        <nav>
+            <div class="even-more-nav-links">
+              <ul>
+                <li><a href="#resource-links">WRITING DOCS</a></li>
+                <li><a href="#domu-manage">DEPLOYING</a></li>
+              </ul>
+            </div>
+          </nav>
+        <div class="writing-docs">
+            <h2>Writing Docs</h2>
+
+        </div>
+        <div class="deploying">
+            <h2>Deploying</h2>
+
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
